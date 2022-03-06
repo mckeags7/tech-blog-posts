@@ -3,11 +3,11 @@ const Sequelize = require("sequelize");
 
 require("dotenv").config(); // For loading env variables
 //create the connection to the database
-const sequelize = process.env.JAWSDB_URL
-  ? new Sequelize(process.env.JAWSDB_URL)
-  : new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW, {
+const sequelize = process.env.DB_NAME
+   new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW, {
       host: "localhost",
       dialect: "mysql",
+      password: "Db4!X92$0",
       dialectOptions: {
         decimalNumbers: true,
       },
