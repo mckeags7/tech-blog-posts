@@ -103,3 +103,6 @@ dist
 .tern-port
 
 # Environmental variables
+DB_NAME= tech_blog_posts
+DB_USER= root
+DB_PW= Db4!X92$0
